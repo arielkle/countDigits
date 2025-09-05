@@ -1,0 +1,30 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6; /* bg-gray-100 */
+}
+
+.call-box {
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    transform: scale(0.95);
+}
+
+.call-box.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.highlight-base {
+    background-color: #d1fae5; /* green-100 */
+    border-color: #10b981; /* green-500 */
+}
+
+.highlight-unwind {
+    background-color: #dbeafe; /* blue-100 */
+    border-color: #3b82f6; /* blue-500 */
+}
+
