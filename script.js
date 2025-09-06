@@ -1,4 +1,3 @@
-console.log("כפתור 'התחל הדמיה' נלחץ!");
 const numberInput = document.getElementById('numberInput');
 const startButton = document.getElementById('startButton');
 const visualizationContainer = document.getElementById('visualization-container');
